@@ -1,0 +1,211 @@
+export const feedMockup = {
+  "meta": {
+    "generated_at_utc": 1696616400,
+    "source": "mock",
+    "page_size_default": 10,
+    "listing_style": "after_before"
+  },
+  "subreddits": [
+    { "name": "pics", "title": "Pictures", "icon": "https://i.examplecdn.com/icons/pics.png" },
+    { "name": "technology", "title": "Technology", "icon": "https://i.examplecdn.com/icons/technology.png" },
+    { "name": "AskReddit", "title": "AskReddit", "icon": "https://i.examplecdn.com/icons/ask.png" }
+  ],
+  "feed": {
+    "page": 1,
+    "after": "t3_mock_0010",
+    "before": null,
+    "items": [
+      {
+        "id": "t3_mock_0001",
+        "title": "Getting paid on the Wall of Death in Rajkot, India",
+        "author": "mohiemen",
+        "subreddit": "pics",
+        "created_utc": 1696609200,
+        "score": 35800,
+        "upvote_ratio": 0.96,
+        "num_comments": 689,
+        "over_18": false,
+        "spoiler": false,
+        "is_self": false,
+        "link_flair_text": null,
+        "permalink": "/r/pics/comments/t3_mock_0001",
+        "url": "https://i.examplecdn.com/wall_of_death.jpg",
+        "preview": {
+          "images": [
+            {
+              "source": { "url": "https://i.examplecdn.com/wall_of_death_1600.jpg", "width": 1600, "height": 1066 },
+              "resolutions": [
+                { "url": "https://i.examplecdn.com/wall_of_death_320.jpg", "width": 320, "height": 213 },
+                { "url": "https://i.examplecdn.com/wall_of_death_640.jpg", "width": 640, "height": 426 }
+              ]
+            }
+          ],
+          "enabled": true
+        },
+        "media": null
+      },
+      {
+        "id": "t3_mock_0002",
+        "title": "California skies. A month until my due date and my world is red.",
+        "author": "westcoastmom",
+        "subreddit": "pics",
+        "created_utc": 1696612800,
+        "score": 12800,
+        "upvote_ratio": 0.93,
+        "num_comments": 512,
+        "over_18": false,
+        "spoiler": false,
+        "is_self": false,
+        "link_flair_text": "Nature",
+        "permalink": "/r/pics/comments/t3_mock_0002",
+        "url": "https://i.examplecdn.com/california_red.jpg",
+        "preview": {
+          "images": [
+            {
+              "source": { "url": "https://i.examplecdn.com/california_red_1600.jpg", "width": 1600, "height": 1066 },
+              "resolutions": [
+                { "url": "https://i.examplecdn.com/california_red_320.jpg", "width": 320, "height": 213 },
+                { "url": "https://i.examplecdn.com/california_red_640.jpg", "width": 640, "height": 426 }
+              ]
+            }
+          ],
+          "enabled": true
+        },
+        "media": null
+      },
+      {
+        "id": "t3_mock_0003",
+        "title": "AskReddit: Qual è il miglior consiglio di carriera che hai ricevuto?",
+        "author": "db_guru",
+        "subreddit": "AskReddit",
+        "created_utc": 1696614600,
+        "score": 2200,
+        "upvote_ratio": 0.89,
+        "num_comments": 954,
+        "over_18": false,
+        "spoiler": false,
+        "is_self": true,
+        "selftext": "Condividi lezioni pratiche che hanno fatto la differenza.",
+        "link_flair_text": "Discussion",
+        "permalink": "/r/AskReddit/comments/t3_mock_0003",
+        "url": null,
+        "preview": null,
+        "media": null
+      }
+    ]
+  },
+  "posts": {
+    "t3_mock_0001": {
+      "id": "t3_mock_0001",
+      "title": "Getting paid on the Wall of Death in Rajkot, India",
+      "author": "mohiemen",
+      "subreddit": "pics",
+      "created_utc": 1696609200,
+      "score": 35800,
+      "upvote_ratio": 0.96,
+      "num_comments": 689,
+      "over_18": false,
+      "spoiler": false,
+      "is_self": false,
+      "link_flair_text": null,
+      "permalink": "/r/pics/comments/t3_mock_0001",
+      "url": "https://i.examplecdn.com/wall_of_death.jpg",
+      "preview": {
+        "images": [
+          {
+            "source": { "url": "https://i.examplecdn.com/wall_of_death_1600.jpg", "width": 1600, "height": 1066 },
+            "resolutions": [
+              { "url": "https://i.examplecdn.com/wall_of_death_320.jpg", "width": 320, "height": 213 },
+              { "url": "https://i.examplecdn.com/wall_of_death_640.jpg", "width": 640, "height": 426 }
+            ]
+          }
+        ],
+        "enabled": true
+      },
+      "media": null
+    },
+    "t3_mock_0002": {
+      "id": "t3_mock_0002",
+      "title": "California skies. A month until my due date and my world is red.",
+      "author": "westcoastmom",
+      "subreddit": "pics",
+      "created_utc": 1696612800,
+      "score": 12800,
+      "upvote_ratio": 0.93,
+      "num_comments": 512,
+      "over_18": false,
+      "spoiler": false,
+      "is_self": false,
+      "link_flair_text": "Nature",
+      "permalink": "/r/pics/comments/t3_mock_0002",
+      "url": "https://i.examplecdn.com/california_red.jpg",
+      "preview": {
+        "images": [
+          {
+            "source": { "url": "https://i.examplecdn.com/california_red_1600.jpg", "width": 1600, "height": 1066 },
+            "resolutions": [
+              { "url": "https://i.examplecdn.com/california_red_320.jpg", "width": 320, "height": 213 },
+              { "url": "https://i.examplecdn.com/california_red_640.jpg", "width": 640, "height": 426 }
+            ]
+          }
+        ],
+        "enabled": true
+      },
+      "media": null
+    },
+    "t3_mock_0003": {
+      "id": "t3_mock_0003",
+      "title": "AskReddit: Qual è il miglior consiglio di carriera che hai ricevuto?",
+      "author": "db_guru",
+      "subreddit": "AskReddit",
+      "created_utc": 1696614600,
+      "score": 2200,
+      "upvote_ratio": 0.89,
+      "num_comments": 954,
+      "over_18": false,
+      "spoiler": false,
+      "is_self": true,
+      "selftext": "Condividi lezioni pratiche che hanno fatto la differenza.",
+      "link_flair_text": "Discussion",
+      "permalink": "/r/AskReddit/comments/t3_mock_0003",
+      "url": null,
+      "preview": null,
+      "media": null
+    }
+  },
+  "comments": {
+    "t3_mock_0001": [
+      {
+        "id": "t1_mock_c001",
+        "author": "roadshowfan",
+        "body": "Incredibile controllo della vettura.",
+        "score": 420,
+        "created_utc": 1696610100,
+        "controversiality": 0
+      },
+      {
+        "id": "t1_mock_c002",
+        "author": "safetyfirst",
+        "body": "Quanto è sicuro questo spettacolo?",
+        "score": 210,
+        "created_utc": 1696610400,
+        "controversiality": 0
+      }
+    ],
+    "t3_mock_0002": [
+      {
+        "id": "t1_mock_c010",
+        "author": "firewatcher",
+        "body": "Il cielo è surreale.",
+        "score": 150,
+        "created_utc": 1696613100,
+        "controversiality": 0
+      }
+    ]
+  },
+  "routes": {
+    "GET /api/feed": { "returns": "feed" },
+    "GET /api/posts/:id": { "returns": "posts[id]" },
+    "GET /api/posts/:id/comments": { "returns": "comments[id]" }
+  }
+}
