@@ -1,4 +1,4 @@
-export const feedMockup = {
+{
   "meta": {
     "generated_at_utc": 1696616400,
     "source": "mock",
@@ -29,14 +29,14 @@ export const feedMockup = {
         "is_self": false,
         "link_flair_text": null,
         "permalink": "/r/pics/comments/t3_mock_0001",
-        "url": "https://i.examplecdn.com/wall_of_death.jpg",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
         "preview": {
           "images": [
             {
-              "source": { "url": "https://i.examplecdn.com/wall_of_death_1600.jpg", "width": 1600, "height": 1066 },
+              "source": { "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80", "width": 1600, "height": 1066 },
               "resolutions": [
-                { "url": "https://i.examplecdn.com/wall_of_death_320.jpg", "width": 320, "height": 213 },
-                { "url": "https://i.examplecdn.com/wall_of_death_640.jpg", "width": 640, "height": 426 }
+                { "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=320&q=80", "width": 320, "height": 213 },
+                { "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=640&q=80", "width": 640, "height": 426 }
               ]
             }
           ],
@@ -58,14 +58,14 @@ export const feedMockup = {
         "is_self": false,
         "link_flair_text": "Nature",
         "permalink": "/r/pics/comments/t3_mock_0002",
-        "url": "https://i.examplecdn.com/california_red.jpg",
+        "url": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=800&q=80",
         "preview": {
           "images": [
             {
-              "source": { "url": "https://i.examplecdn.com/california_red_1600.jpg", "width": 1600, "height": 1066 },
+              "source": { "url": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=1600&q=80", "width": 1600, "height": 1066 },
               "resolutions": [
-                { "url": "https://i.examplecdn.com/california_red_320.jpg", "width": 320, "height": 213 },
-                { "url": "https://i.examplecdn.com/california_red_640.jpg", "width": 640, "height": 426 }
+                { "url": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=320&q=80", "width": 320, "height": 213 },
+                { "url": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=640&q=80", "width": 640, "height": 426 }
               ]
             }
           ],
