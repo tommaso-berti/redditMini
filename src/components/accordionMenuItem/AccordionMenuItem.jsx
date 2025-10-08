@@ -4,8 +4,8 @@ import './accordionMenuItem.css'
 
 export default function AccordionMenuItem({author}) {
     return (
-        <div className="accordionMenuButton" key={author}>
+        <li className="accordionMenuButton" key={author}>
             <Link to={ROUTES.authors(author)}>{author}</Link>
-        </div>
+        </li>
     )
 }

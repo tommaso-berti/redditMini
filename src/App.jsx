@@ -9,12 +9,18 @@ export default function App() {
 
     return (
         <BrowserRouter>
-            <Header />
-
-            <Routes>
-                <Route path="/" element={<Feed />}/>
-                <Route path="/about" element={<h1>About Page</h1>}/>
-            </Routes>
+            <div className="app-layout">
+                <Header />
+                <div className="main-content">
+                    <div className="accordion-sidebar">
+                        <AccordionSidebar />
+                    </div>
+                    <Routes>
+                        <Route path="/" element={<Feed />} />
+                        <Route path="/about" element={<h1>About Page</h1>} />
+                    </Routes>
+                </div>
+            </div>
         </BrowserRouter>
     )
 }

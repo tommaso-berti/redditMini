@@ -40,3 +40,14 @@
 .read-the-docs {
   color: #888;
 }
+
+.accordion-sidebar {
+    position: fixed;
+    top: 60px; /* Altezza dell’header */
+    left: 0;
+    width: 250px;
+    height: calc(100vh - 60px);
+    background-color: #fff;
+    border-right: 1px solid #ddd;
+    overflow-y: auto;
+}
