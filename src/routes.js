@@ -1,5 +1,6 @@
 const ROUTES = {
-    authors: (author) => `/authors/${author}`
-}
+    home: '/',
+    authors: (author = ':author') => `/authors/${author}`
+};
 
 export default ROUTES;

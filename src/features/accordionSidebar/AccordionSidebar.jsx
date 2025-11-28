@@ -5,7 +5,8 @@ import AccordionMenuItem from "../../components/accordionMenuItem/AccordionMenuI
 
 export default function AccordionSidebar() {
     const authors = useSelector(selectAuthors);
-    console.log(authors);
+    console.log('authors:', authors);
+
     return (
         <menu className="accordionSidebar">
             <ul className="author">
@@ -17,9 +18,6 @@ export default function AccordionSidebar() {
                     <li>Nessun autore disponibile</li>
                 )}
             </ul>
-            <div className="subreddit">
-
-            </div>
         </menu>
-    )
+    );
 }
