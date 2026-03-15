@@ -1,16 +1,103 @@
-# React + Vite
+# Reddit Mini Client
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A small Reddit client built as a frontend exercise with React, Redux Toolkit, and React Router.  
+The app loads posts from a subreddit (`pics` by default), lists unique authors in a sidebar, supports author-based filtering through routes, and fetches comments on demand for each post.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React 19
+- Redux Toolkit + React Redux
+- React Router
+- Vite (Rolldown) + ESLint
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Fetches subreddit posts from Reddit JSON API
+- Shows post title, score, image preview, author, date, and comment count
+- Lazy-loads comments per post when the user opens the comments section
+- Builds an author list automatically from fetched posts
+- Filters feed by author using route params (`/authors/:author`)
+- Handles loading and error states for feed and comments
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- Node.js 18+ (recommended)
+- npm
+
+### Installation
+
+```bash
+npm install
+```
+
+### Run in Development
+
+```bash
+npm run dev
+```
+
+Open the local URL shown in terminal (usually `http://localhost:5173`).
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+### Preview Production Build
+
+```bash
+npm run preview
+```
+
+### Lint
+
+```bash
+npm run lint
+```
+
+## Routing
+
+- `/` -> full feed
+- `/authors/:author` -> feed filtered by the selected author
+
+## API Access and Proxy
+
+During development, Vite proxies API requests from:
+
+- `/reddit-api/...` -> `https://www.reddit.com/...`
+
+This avoids CORS issues and keeps fetch calls consistent in the app.
+
+## Project Structure
+
+```text
+src/
+  components/
+    header/
+    feedPost/
+    accordionMenuItem/
+  features/
+    feed/
+    accordionSidebar/
+  store/
+    feedSlice.js
+    authorsSlice.js
+    store.js
+  utils/
+    helpers.js
+  App.jsx
+  routes.js
+  main.jsx
+```
+
+## Notes
+
+- Current UI text is mostly in Italian, while code and architecture are language-agnostic.
+- Comments are cached in Redux by `postId` after first fetch.
+
+## One-Line Project Description
+
+**"Reddit Mini Client is a React and Redux Toolkit exercise project that fetches and displays Reddit posts, supports author-based filtering with dynamic routing, and loads post comments on demand through asynchronous state management."**
